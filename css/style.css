@@ -1,0 +1,56 @@
+.myslider{
+	position:relative;
+	width:500px;
+	overflow:hidden;
+	height: 300px;
+	font-size:20px;
+}
+
+.myslider2{
+	width:500px;
+	overflow:hidden;
+	height: 600px;
+}
+.indicator-box{
+	position: absolute;
+	text-align: center;
+	width: 300px;
+	color:#fff;
+	}
+.indicator-box a{
+	color:#fff;
+}
+.sliderInner{	
+	width:500%;
+}
+.myslider .next {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: 0;
+	padding:10px;
+}
+
+.myslider .next a {
+color:#fff;
+text-decoration:none;
+}
+
+.myslider .previous {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 0;
+	padding:10px;
+}
+
+.myslider .previous a {
+color:#fff;
+text-decoration:none;
+}
+
+.sliderInner img{
+float:left;
+
+}
+
